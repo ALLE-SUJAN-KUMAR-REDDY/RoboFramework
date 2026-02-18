@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-18T17:58:24.535417" rpa="false" schemaversion="5">
+<suite id="s1" name="LoginPractice" source="C:\Users\Sujan Kumar Reddy\PycharmProjects\RoboFramework\Selenium\LoginPractice.robot">
+<test id="s1-t1" name="Verify login scenario with valid credentials" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-18T17:58:24.749506" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${url}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-18T17:58:24.749209" elapsed="8.439389"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.189422" elapsed="0.003657"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath://input[@id='user-name']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.193614" elapsed="0.039329"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-18T17:58:33.234231" level="INFO">Typing text 'standard_user' into text field 'xpath://input[@id='user-name']'.</msg>
+<arg>xpath://input[@id='user-name']</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.233820" elapsed="0.092525"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-18T17:58:33.327207" level="INFO">Typing text 'secret_sauce' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.326813" elapsed="0.078814"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-18T17:58:33.406507" level="INFO">Clicking element 'xpath://input[@id='login-button']'.</msg>
+<arg>xpath://input[@id='login-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.406122" elapsed="0.132177"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath://span[text()='Products']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.539272" elapsed="0.038691"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-18T17:58:33.600540" level="INFO">Element 'xpath://span[text()='Products']' is displayed.</msg>
+<arg>xpath://span[text()='Products']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.582858" elapsed="0.017859"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-18T17:58:33.601255" elapsed="3.386161"/>
+</kw>
+<status status="PASS" start="2026-02-18T17:58:24.748127" elapsed="12.240781"/>
+</test>
+<status status="PASS" start="2026-02-18T17:58:24.536908" elapsed="12.453551"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="LoginPractice" id="s1" pass="1" fail="0" skip="0">LoginPractice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-18T11:40:13.389890" rpa="false" schemaversion="5">
+<suite id="s1" name="Testcase1" source="C:\Users\Sujan Kumar Reddy\PycharmProjects\RoboFramework\TestSuite\Testcase1.robot">
+<test id="s1-t1" name="Verify login with valid credentials" line="7">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Enter username</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-18T11:40:13.611166" elapsed="0.000522"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Enter password</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-18T11:40:13.612210" elapsed="0.000591"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>click on login button</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-18T11:40:13.613035" elapsed="0.000383"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user is on the home page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-18T11:40:13.613635" elapsed="0.000356"/>
+</kw>
+<status status="PASS" start="2026-02-18T11:40:13.610146" elapsed="0.004254"/>
+</test>
+<status status="PASS" start="2026-02-18T11:40:13.391862" elapsed="0.223326"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testcase1" id="s1" pass="1" fail="0" skip="0">Testcase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
