@@ -1,0 +1,29 @@
+1771484714820	geckodriver	INFO	Listening on 127.0.0.1:63586
+1771484717937	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileAHvKJp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771484718334	Marionette	INFO	Marionette enabled
+1771484718452	Marionette	INFO	Listening on port 63597
+Read port: 63597
+WebDriver BiDi listening on ws://127.0.0.1:63587
+1771484718609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+1771484729993	RemoteAgent	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/shared/Sync.sys.mjs:448:24
+TimedPromise@chrome://remote/content/shared/Sync.sys.mjs:432:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+JavaScript warning: https://code.jquery.com/jquery-1.12.4.js, line 5321: Script terminated by timeout at:
+fix@https://code.jquery.com/jquery-1.12.4.js:5321:11
+dispatch@https://code.jquery.com/jquery-1.12.4.js:5189:24
+add/elemData.handle@https://code.jquery.com/jquery-1.12.4.js:4878:28
+
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1250: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1771485002114	Marionette	INFO	Stopped listening on port 63597
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

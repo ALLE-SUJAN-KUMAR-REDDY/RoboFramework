@@ -1,0 +1,22 @@
+1771483403335	geckodriver	INFO	Listening on 127.0.0.1:58605
+1771483406428	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileIhIlV3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771483406916	Marionette	INFO	Marionette enabled
+1771483407032	Marionette	INFO	Listening on port 58613
+Read port: 58613
+WebDriver BiDi listening on ws://127.0.0.1:58606
+1771483407183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+1771484317686	Marionette	INFO	Stopped listening on port 58613
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,25 @@
+1771485008987	geckodriver	INFO	Listening on 127.0.0.1:51240
+1771485012109	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofilexD9yNs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771485012467	Marionette	INFO	Marionette enabled
+1771485012591	Marionette	INFO	Listening on port 51248
+Read port: 51248
+WebDriver BiDi listening on ws://127.0.0.1:51241
+1771485012894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+1771485053483	RemoteAgent	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/shared/Sync.sys.mjs:448:24
+TimedPromise@chrome://remote/content/shared/Sync.sys.mjs:432:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1771485056640	RemoteAgent	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/shared/Sync.sys.mjs:448:24
+TimedPromise@chrome://remote/content/shared/Sync.sys.mjs:432:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1771485059269	Marionette	INFO	Stopped listening on port 51248
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

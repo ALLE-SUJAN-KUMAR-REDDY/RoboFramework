@@ -1,0 +1,30 @@
+1771476954654	geckodriver	INFO	Listening on 127.0.0.1:57112
+1771476957724	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofile0ufOYo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771476958332	Marionette	INFO	Marionette enabled
+1771476958512	Marionette	INFO	Listening on port 57120
+Read port: 57120
+WebDriver BiDi listening on ws://127.0.0.1:57113
+1771476958848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2089
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PVBTJWPP, line 305: Script terminated by timeout at:
+Qk@https://www.googletagmanager.com/gtm.js?id=GTM-PVBTJWPP:305:563
+Zm@https://www.googletagmanager.com/gtm.js?id=GTM-PVBTJWPP:331:263
+
+1771479734817	Marionette	INFO	Stopped listening on port 57120
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

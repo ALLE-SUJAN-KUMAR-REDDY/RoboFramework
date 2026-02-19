@@ -1,0 +1,26 @@
+1771484349497	geckodriver	INFO	Listening on 127.0.0.1:52906
+1771484352593	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileVh1WlL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771484352956	Marionette	INFO	Marionette enabled
+1771484353086	Marionette	INFO	Listening on port 52914
+Read port: 52914
+WebDriver BiDi listening on ws://127.0.0.1:52907
+1771484353235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1771484359183	RemoteAgent	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/shared/Sync.sys.mjs:448:24
+TimedPromise@chrome://remote/content/shared/Sync.sys.mjs:432:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1250: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript warning: https://kit.fontawesome.com/d10db5a94a.js, line 2: Script terminated by timeout at:
+t@https://kit.fontawesome.com/d10db5a94a.js:2:221
+e@https://kit.fontawesome.com/d10db5a94a.js:2:422
+X/</<@https://kit.fontawesome.com/d10db5a94a.js:2:12243
+
+1771484664938	Marionette	INFO	Stopped listening on port 52914
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,34 @@
+1771484541326	geckodriver	INFO	Listening on 127.0.0.1:55511
+1771484544431	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileLO6jgT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771484544797	Marionette	INFO	Marionette enabled
+1771484544918	Marionette	INFO	Listening on port 55519
+Read port: 55519
+WebDriver BiDi listening on ws://127.0.0.1:55512
+1771484545065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+1771484554381	RemoteAgent	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/shared/Sync.sys.mjs:448:24
+TimedPromise@chrome://remote/content/shared/Sync.sys.mjs:432:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/AutomationPractice/" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js, line 2: Script terminated by timeout at:
+we/h<@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:19166
+r@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:21527
+se.select@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:22429
+se@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:6893
+handlers@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:43033
+dispatch@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:42258
+add/v.handle@https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js:2:40572
+
+1771485003282	Marionette	INFO	Stopped listening on port 55519
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1250: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
