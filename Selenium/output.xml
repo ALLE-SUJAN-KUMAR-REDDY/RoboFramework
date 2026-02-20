@@ -1,162 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-19T13:10:09.930145" rpa="false" schemaversion="5">
-<suite id="s1" name="Saucedemo" source="C:\Users\Sujan Kumar Reddy\PycharmProjects\RoboFramework\Selenium\saucedemo.robot">
-<kw name="Open Swag Labs" type="SETUP">
+<robot generator="Robot 7.4.1 (Python 3.13.12 on win32)" generated="2026-02-20T17:22:54.196128" rpa="false" schemaversion="5">
+<suite id="s1" name="Automation" source="C:\Users\Sujan Kumar Reddy\PycharmProjects\RoboFramework\Selenium\Automation.robot">
+<kw name="Open Browser To Shop" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:10.195319" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-02-20T17:22:54.416694" level="INFO">Opening browser 'chrome' to base url 'https://practice.automationtesting.in/'.</msg>
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-19T13:10:10.195021" elapsed="9.320737"/>
+<status status="PASS" start="2026-02-20T17:22:54.416403" elapsed="5.998310"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-02-19T13:10:19.516207" elapsed="0.010135"/>
+<status status="PASS" start="2026-02-20T17:23:00.415358" elapsed="0.035202"/>
 </kw>
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
-<arg>1.0s</arg>
+<arg>${DELAY}</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2026-02-19T13:10:19.526683" elapsed="0.000488"/>
-</kw>
-<status status="PASS" start="2026-02-19T13:10:10.194337" elapsed="9.333022"/>
-</kw>
-<test id="s1-t1" name="Swag Labs Complete Checkout Flow" line="54">
-<kw name="Login To Swag Labs">
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:19.530522" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
-<arg>id=user-name</arg>
-<arg>${USERNAME}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:19.529537" elapsed="3.118554"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:22.648967" level="INFO">Typing text 'secret_sauce' into text field 'id=password'.</msg>
-<arg>id=password</arg>
-<arg>${PASSWORD}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:22.648459" elapsed="3.063204"/>
-</kw>
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:25.712186" level="INFO">Clicking button 'id=login-button'.</msg>
-<arg>id=login-button</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:25.711918" elapsed="3.136327"/>
+<status status="PASS" start="2026-02-20T17:23:00.450926" elapsed="0.000655"/>
 </kw>
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Products</arg>
+<arg>Shop</arg>
+<arg>10s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-19T13:10:28.848556" elapsed="1.008826"/>
+<status status="PASS" start="2026-02-20T17:23:00.451821" elapsed="1.031499"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:10:19.528688" elapsed="10.328975"/>
+<status status="PASS" start="2026-02-20T17:22:54.415785" elapsed="7.067804"/>
 </kw>
-<kw name="Add Items To Cart">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:29.859895" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-backpack'.</msg>
-<arg>id=add-to-cart-sauce-labs-backpack</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:29.859368" elapsed="5.105613"/>
-</kw>
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:34.965775" level="INFO">Clicking button 'id=add-to-cart-sauce-labs-bolt-t-shirt'.</msg>
-<arg>id=add-to-cart-sauce-labs-bolt-t-shirt</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:34.965297" elapsed="5.088131"/>
-</kw>
-<status status="PASS" start="2026-02-19T13:10:29.858710" elapsed="10.195165"/>
-</kw>
-<kw name="Go To Cart">
-<kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:40.056761" level="INFO">Clicking element 'class=shopping_cart_link'.</msg>
-<arg>class=shopping_cart_link</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:40.056124" elapsed="2.089204"/>
+<test id="s1-t1" name="Place Order Successfully" line="12">
+<kw name="Add Product To Basket">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:01.485856" level="INFO">Executing JavaScript:
+document.querySelectorAll("a.button")[0].click();
+Without any arguments.</msg>
+<arg>document.querySelectorAll("a.button")[0].click();</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-20T17:23:01.485170" elapsed="1.030860"/>
 </kw>
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Your Cart</arg>
+<arg>View Basket</arg>
+<arg>10s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-19T13:10:42.145773" elapsed="1.005807"/>
+<status status="PASS" start="2026-02-20T17:23:02.516361" elapsed="1.026006"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:10:40.055159" elapsed="3.096762"/>
+<status status="PASS" start="2026-02-20T17:23:01.484669" elapsed="2.058404"/>
 </kw>
-<kw name="Checkout From Cart">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:43.153546" level="INFO">Clicking button 'id=checkout'.</msg>
-<arg>id=checkout</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:43.153194" elapsed="5.096792"/>
+<kw name="View Basket Page">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:03.546339" level="INFO">Executing JavaScript:
+document.querySelector("a.added_to_cart").click();
+Without any arguments.</msg>
+<arg>document.querySelector("a.added_to_cart").click();</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-20T17:23:03.545519" elapsed="4.519230"/>
 </kw>
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Checkout: Your Information</arg>
+<arg>Basket Totals</arg>
+<arg>10s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-19T13:10:48.250656" elapsed="1.013365"/>
+<status status="PASS" start="2026-02-20T17:23:08.065097" elapsed="1.036031"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:10:43.152623" elapsed="6.111598"/>
+<status status="PASS" start="2026-02-20T17:23:03.544082" elapsed="5.557258"/>
 </kw>
-<kw name="Fill Checkout Information">
+<kw name="Proceed To Checkout">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:09.103959" level="INFO">Executing JavaScript:
+document.querySelector("a.checkout-button").click();
+Without any arguments.</msg>
+<arg>document.querySelector("a.checkout-button").click();</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-20T17:23:09.102710" elapsed="3.095508"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Billing Details</arg>
+<arg>10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-02-20T17:23:12.198756" elapsed="1.034553"/>
+</kw>
+<status status="PASS" start="2026-02-20T17:23:09.102059" elapsed="4.131471"/>
+</kw>
+<kw name="Fill Billing Details">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:49.266630" level="INFO">Typing text 'Sujan' into text field 'id=first-name'.</msg>
-<arg>id=first-name</arg>
-<arg>${FIRSTNAME}</arg>
+<msg time="2026-02-20T17:23:13.235484" level="INFO">Typing text 'Sujan' into text field 'id=billing_first_name'.</msg>
+<arg>id=billing_first_name</arg>
+<arg>Sujan</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:49.266102" elapsed="3.078394"/>
+<status status="PASS" start="2026-02-20T17:23:13.234761" elapsed="3.190315"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:52.345477" level="INFO">Typing text 'Reddy' into text field 'id=last-name'.</msg>
-<arg>id=last-name</arg>
-<arg>${LASTNAME}</arg>
+<msg time="2026-02-20T17:23:16.425973" level="INFO">Typing text 'Reddy' into text field 'id=billing_last_name'.</msg>
+<arg>id=billing_last_name</arg>
+<arg>Reddy</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:52.344893" elapsed="3.079330"/>
+<status status="PASS" start="2026-02-20T17:23:16.425497" elapsed="3.194992"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:55.424865" level="INFO">Typing text '500001' into text field 'id=postal-code'.</msg>
-<arg>id=postal-code</arg>
-<arg>${ZIP}</arg>
+<msg time="2026-02-20T17:23:19.621457" level="INFO">Typing text 'sujan@test.com' into text field 'id=billing_email'.</msg>
+<arg>id=billing_email</arg>
+<arg>sujan@test.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:55.424512" elapsed="3.056744"/>
+<status status="PASS" start="2026-02-20T17:23:19.620934" elapsed="3.235344"/>
 </kw>
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:10:58.481996" level="INFO">Clicking button 'id=continue'.</msg>
-<arg>id=continue</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:10:58.481508" elapsed="3.090542"/>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:22.857402" level="INFO">Typing text '9876543210' into text field 'id=billing_phone'.</msg>
+<arg>id=billing_phone</arg>
+<arg>9876543210</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-20T17:23:22.856735" elapsed="3.262795"/>
 </kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:26.120444" level="INFO">Typing text 'Hyderabad' into text field 'id=billing_address_1'.</msg>
+<arg>id=billing_address_1</arg>
+<arg>Hyderabad</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-20T17:23:26.120142" elapsed="3.182396"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:29.303268" level="INFO">Typing text 'Hyderabad' into text field 'id=billing_city'.</msg>
+<arg>id=billing_city</arg>
+<arg>Hyderabad</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-20T17:23:29.302922" elapsed="3.257907"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:32.561778" level="INFO">Typing text '500001' into text field 'id=billing_postcode'.</msg>
+<arg>id=billing_postcode</arg>
+<arg>500001</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-20T17:23:32.561331" elapsed="3.216587"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:35.778727" level="INFO">Selecting options from selection list 'id=billing_country' by label India.</msg>
+<arg>id=billing_country</arg>
+<arg>India</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-02-20T17:23:35.778344" elapsed="9.217931"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:44.997442" level="INFO">Selecting options from selection list 'id=billing_state' by label Telangana.</msg>
+<arg>id=billing_state</arg>
+<arg>Telangana</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-02-20T17:23:44.996825" elapsed="9.154189"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-20T17:23:56.152659" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-20T17:23:54.151405" elapsed="2.001618"/>
+</kw>
+<status status="PASS" start="2026-02-20T17:23:13.234254" elapsed="42.919134"/>
+</kw>
+<kw name="Place Order">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-02-20T17:23:56.157466" level="INFO">Executing JavaScript:
+document.getElementById("place_order").click();
+Without any arguments.</msg>
+<arg>document.getElementById("place_order").click();</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-02-20T17:23:56.156321" elapsed="1.127772"/>
+</kw>
+<status status="PASS" start="2026-02-20T17:23:56.155514" elapsed="1.129436"/>
+</kw>
+<kw name="Verify Thank You Page">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Checkout: Overview</arg>
+<arg>Thank you. Your order has been received.</arg>
+<arg>20s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-19T13:11:01.572315" elapsed="1.004477"/>
+<status status="PASS" start="2026-02-20T17:23:57.287497" elapsed="3.094096"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:10:49.265288" elapsed="13.311762"/>
-</kw>
-<kw name="Finish Checkout">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:11:02.578972" level="INFO">Clicking button 'id=finish'.</msg>
-<arg>id=finish</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-19T13:11:02.578491" elapsed="5.106894"/>
-</kw>
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Checkout: Complete!</arg>
-<doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2026-02-19T13:11:07.685692" elapsed="1.004798"/>
-</kw>
-<status status="PASS" start="2026-02-19T13:11:02.577721" elapsed="6.113021"/>
-</kw>
-<kw name="Verify Order Success">
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2026-02-19T13:11:10.703909" level="INFO">Current page contains text 'Thank you for your order!'.</msg>
-<arg>Thank you for your order!</arg>
+<msg time="2026-02-20T17:24:02.424739" level="INFO">Current page contains text 'Thank you. Your order has been received.'.</msg>
+<arg>Thank you. Your order has been received.</arg>
+<arg>Thank you. Your order has been received.</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-02-19T13:11:08.692388" elapsed="2.011714"/>
+<status status="PASS" start="2026-02-20T17:24:00.381961" elapsed="2.043064"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:11:08.691714" elapsed="2.012548"/>
+<status status="PASS" start="2026-02-20T17:23:57.286337" elapsed="5.138953"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:10:19.527515" elapsed="51.177545"/>
+<status status="PASS" start="2026-02-20T17:23:01.483718" elapsed="60.942658"/>
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-02-19T13:11:10.707700" elapsed="4.653362"/>
+<status status="PASS" start="2026-02-20T17:24:02.430386" elapsed="3.251392"/>
 </kw>
-<status status="PASS" start="2026-02-19T13:10:09.931704" elapsed="65.429472"/>
+<status status="PASS" start="2026-02-20T17:22:54.197629" elapsed="71.484240"/>
 </suite>
 <statistics>
 <total>
@@ -165,7 +192,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="Saucedemo" id="s1" pass="1" fail="0" skip="0">Saucedemo</stat>
+<stat name="Automation" id="s1" pass="1" fail="0" skip="0">Automation</stat>
 </suite>
 </statistics>
 <errors>

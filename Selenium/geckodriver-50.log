@@ -1,0 +1,40 @@
+1771570481420	geckodriver	INFO	Listening on 127.0.0.1:53008
+1771570484539	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileu6FRoE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771570485044	Marionette	INFO	Marionette enabled
+1771570485218	Marionette	INFO	Listening on port 53016
+Read port: 53016
+WebDriver BiDi listening on ws://127.0.0.1:53009
+1771570485437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2479
+JavaScript warning: https://1c5c1ecf7303.e10058c8.ap-south-1.token.awswaf.com/1c5c1ecf7303/6ab7d267eef9/66125abca348/challenge.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1c5c1ecf7303.e10058c8.ap-south-1.token.awswaf.com/1c5c1ecf7303/6ab7d267eef9/66125abca348/challenge.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/, line 3844: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81BXdoJ-FBL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+JavaScript warning: https://www.amazon.in/, line 3833: Script terminated by timeout at:
+__merge@https://www.amazon.in/:3833:9208
+_@https://www.amazon.in/:1476:10781
+U@https://www.amazon.in/:1476:1020
+@https://www.amazon.in/:1476:1813
+i/<@https://www.amazon.in/:1451:136
+P/this.log@https://www.amazon.in/:1476:9440
+U@https://www.amazon.in/:1476:1020
+@https://www.amazon.in/:1476:1813
+i/<@https://www.amazon.in/:1451:136
+n/this.recordCounter@https://www.amazon.in/:3833:9115
+U@https://www.amazon.in/:1476:1020
+@https://www.amazon.in/:1476:1813
+i/<@https://www.amazon.in/:1451:136
+J@https://www.amazon.in/:3833:16508
+S/<@https://www.amazon.in/:1476:686
+t.emit@https://www.amazon.in/:1476:1333
+D@https://www.amazon.in/:1476:6863
+S/<@https://www.amazon.in/:1476:686
+
+1771572574902	Marionette	INFO	Stopped listening on port 53016
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

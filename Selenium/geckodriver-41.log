@@ -1,0 +1,21 @@
+1771566316863	geckodriver	INFO	Listening on 127.0.0.1:63439
+1771566319922	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofilersPOP0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771566320315	Marionette	INFO	Marionette enabled
+1771566320442	Marionette	INFO	Listening on port 63447
+Read port: 63447
+WebDriver BiDi listening on ws://127.0.0.1:63440
+1771566320822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://1c5c1ecf7303.e10058c8.ap-south-1.token.awswaf.com/1c5c1ecf7303/6ab7d267eef9/66125abca348/challenge.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1c5c1ecf7303.e10058c8.ap-south-1.token.awswaf.com/1c5c1ecf7303/6ab7d267eef9/66125abca348/challenge.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/, line 3707: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81BXdoJ-FBL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1771566340933	Marionette	INFO	Stopped listening on port 63447
+Dynamically enable window occlusion 1
+JavaScript warning: https://m.media-amazon.com/images/I/11zuylp74DL._RC|11Y+5x+kkTL.js,51LPrROZ2JL.js,115zbyk371L.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21NadQlXUWL.js,01vRf9id2EL.js,11a7qqY8xXL.js,11aZNVRA-EL.js,51C4kaFbiAL.js,11FhdH2HZwL.js,11wb9K3sw0L.js,11BrgrMAHUL.js,11GPhx42StL.js,210X-JWUe-L.js,01Svfxfy8OL.js,61lyy0inY-L.js,01ikBbTAneL.js,316JwWyajNL.js,01qXJuwGmxL.js,01WlsjNmqIL.js,11F929pmpYL.js,31Zn4S+IOkL.js,01rpauTep4L.js,31rqCOnXDNL.js,011FfPwYqHL.js,21P5VvHf-XL.js,013ncka0wXL.js,21kN0q4IA-L.js,01VvIkYCafL.js,11vb6P5C5AL.js,01WGEHrgDSL.js_.js?AUIClients/AmazonUI#1329374-T1, line 45: Script terminated by timeout at:
+l/<@https://m.media-amazon.com/images/I/11zuylp74DL._RC|11Y+5x+kkTL.js,51LPrROZ2JL.js,115zbyk371L.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21NadQlXUWL.js,01vRf9id2EL.js,11a7qqY8xXL.js,11aZNVRA-EL.js,51C4kaFbiAL.js,11FhdH2HZwL.js,11wb9K3sw0L.js,11BrgrMAHUL.js,11GPhx42StL.js,210X-JWUe-L.js,01Svfxfy8OL.js,61lyy0inY-L.js,01ikBbTAneL.js,316JwWyajNL.js,01qXJuwGmxL.js,01WlsjNmqIL.js,11F929pmpYL.js,31Zn4S+IOkL.js,01rpauTep4L.js,31rqCOnXDNL.js,011FfPwYqHL.js,21P5VvHf-XL.js,013ncka0wXL.js,21kN0q4IA-L.js,01VvIkYCafL.js,11vb6P5C5AL.js,01WGEHrgDSL.js_.js?AUIClients/AmazonUI#1329374-T1:45:167
+
+JavaScript warning: https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles, line 20092: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

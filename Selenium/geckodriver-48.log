@@ -1,0 +1,18 @@
+1771569157783	geckodriver	INFO	Listening on 127.0.0.1:52425
+1771569160864	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileUPfPvT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771569161373	Marionette	INFO	Marionette enabled
+1771569161488	Marionette	INFO	Listening on port 52433
+Read port: 52433
+WebDriver BiDi listening on ws://127.0.0.1:52426
+1771569161937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]:[GFX CompositorBridgeChild r1-]: CompositorBeceives IPC close with rearidgeChild rson=AbnormalShuteceives IPC close witdowh rean
+son=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

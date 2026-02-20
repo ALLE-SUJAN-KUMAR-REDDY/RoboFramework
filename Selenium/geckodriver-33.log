@@ -1,0 +1,14 @@
+1771562770040	geckodriver	INFO	Listening on 127.0.0.1:49912
+1771562773103	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileobUfKd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771562773631	Marionette	INFO	Marionette enabled
+1771562773794	Marionette	INFO	Listening on port 49920
+Read port: 49920
+WebDriver BiDi listening on ws://127.0.0.1:49913
+1771562774157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2057
+1771562785673	Marionette	INFO	Stopped listening on port 49920
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

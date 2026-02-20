@@ -1,0 +1,14 @@
+1771585001619	geckodriver	INFO	Listening on 127.0.0.1:49246
+1771585004718	mozrunner::runner	INFO	Running command: "C:\\Users\\Sujan Kumar Reddy\\.cache\\selenium\\firefox\\win64\\147.0.4\\firefox.exe" "--marionette" "--rem ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SUJANK~1\\AppData\\Local\\Temp\\rust_mozprofileEAc4ry"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771585005114	Marionette	INFO	Marionette enabled
+1771585005234	Marionette	INFO	Listening on port 49254
+Read port: 49254
+WebDriver BiDi listening on ws://127.0.0.1:49247
+1771585005428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -1,23 +1,24 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library     SeleniumLibrary
+Library     OperatingSystem
+Library     Collections
 
 *** Variables ***
-${url}    https://the-internet.herokuapp.com/download
+${url}              https://the-internet.herokuapp.com/download
+${download_path}    C:/Users/Sujan Kumar Reddy/Downloads
+${file_name}        some-file.txt
 
 *** Test Cases ***
-Download file and print link
+Verify file download
     Open Browser    ${url}    firefox
     Maximize Browser Window
 
-    # Choose the file name you want to download
-    ${file_name}=    Set Variable    demo-file.txt
-
-    # Get the download link (href attribute)
-    ${download_link}=    Get Element Attribute    xpath=//a[text()='${file_name}']    href
-    Log    Download link is: ${download_link}
-
-    # Click the link to download
-    Click Element    xpath=//a[text()='${file_name}']
+    Wait Until Element Is Visible    xpath://a[normalize-space()='${file_name}']
+    Click Element    xpath://a[normalize-space()='${file_name}']
 
     Sleep    5s
+
+    ${files}=    List Files In Directory    ${download_path}
+    List Should Contain Value    ${files}    ${file_name}
+
     Close Browser
