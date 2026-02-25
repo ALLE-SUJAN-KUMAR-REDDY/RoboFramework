@@ -1,4 +1,4 @@
-# selecting  hy visible text
+# selecting  by visible text
 # selecting by index
 # selecting the value 
 *** Settings ***
